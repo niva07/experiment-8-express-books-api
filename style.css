@@ -1,0 +1,216 @@
+body {
+ font-family: Arial, sans-serif;
+ margin: 0;
+ background-color: #f4f6f8;
+ color: #333;
+}
+
+header {
+ background-color: #1a3a5c;
+ color: white;
+ text-align: center;
+ padding: 25px 20px;
+}
+
+header p {
+ margin: 5px 0 0 0;
+ opacity: 0.85;
+}
+
+nav {
+ background-color: #2a5298;
+ text-align: center;
+ padding: 10px;
+}
+
+nav a {
+ color: white;
+ text-decoration: none;
+ margin: 0 15px;
+ font-size: 15px;
+}
+
+nav a:hover {
+ text-decoration: underline;
+}
+
+main {
+ max-width: 650px;
+ margin: 30px auto;
+ padding: 0 20px;
+}
+
+section {
+ background-color: white;
+ border-radius: 8px;
+ padding: 20px;
+ margin-bottom: 25px;
+ box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+section h2 {
+ margin-top: 0;
+ color: #1a3a5c;
+ font-size: 18px;
+ border-bottom: 2px solid #eef2f5;
+ padding-bottom: 8px;
+ margin-bottom: 15px;
+}
+
+/* Form */
+.form-group {
+ margin-bottom: 12px;
+}
+
+.form-group label {
+ display: block;
+ font-size: 13px;
+ margin-bottom: 4px;
+ color: #555;
+}
+
+input[type="text"],
+input[type="number"] {
+ width: 100%;
+ padding: 8px 10px;
+ border: 1px solid #bbb;
+ border-radius: 4px;
+ font-size: 14px;
+ box-sizing: border-box;
+}
+
+.btn-row {
+ display: flex;
+ gap: 8px;
+ margin-top: 10px;
+}
+
+button {
+ padding: 8px 18px;
+ border: none;
+ border-radius: 4px;
+ font-size: 14px;
+ cursor: pointer;
+}
+
+#submitBtn {
+ background-color: #1a3a5c;
+ color: white;
+}
+
+#submitBtn:hover {
+ background-color: #2a5298;
+}
+
+#cancelBtn {
+ background-color: #888;
+ color: white;
+}
+
+/* Search */
+#searchInput {
+ width: 100%;
+ padding: 8px 10px;
+ border: 1px solid #bbb;
+ border-radius: 4px;
+ font-size: 14px;
+ box-sizing: border-box;
+ margin-bottom: 15px;
+}
+
+/* Book Cards */
+.book-card {
+ background-color: #f8fafc;
+ border: 1px solid #dde;
+ border-left: 4px solid #2a5298;
+ border-radius: 5px;
+ padding: 12px 14px;
+ margin-bottom: 12px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ gap: 12px;
+}
+
+.book-card h4 {
+ margin: 0 0 4px 0;
+ font-size: 15px;
+ color: #1a3a5c;
+}
+
+.book-card p {
+ margin: 0;
+ font-size: 13px;
+ color: #555;
+}
+
+.book-actions {
+ display: flex;
+ gap: 6px;
+ flex-shrink: 0;
+}
+
+.btn-edit {
+ background-color: #f0ad4e;
+ color: white;
+ padding: 5px 10px;
+ font-size: 12px;
+}
+
+.btn-delete {
+ background-color: #d9534f;
+ color: white;
+ padding: 5px 10px;
+ font-size: 12px;
+}
+
+/* API Endpoint List */
+.endpoint-list {
+ list-style: none;
+ padding: 0;
+ margin: 0;
+}
+
+.endpoint-list li {
+ padding: 10px 0;
+ border-bottom: 1px solid #eee;
+ font-size: 14px;
+ display: flex;
+ align-items: center;
+ gap: 10px;
+}
+
+.endpoint-list li:last-child {
+ border-bottom: none;
+}
+
+.method {
+ display: inline-block;
+ padding: 2px 8px;
+ border-radius: 4px;
+ font-size: 12px;
+ font-weight: bold;
+ color: white;
+ min-width: 55px;
+ text-align: center;
+}
+
+.method.get    { background-color: #27ae60; }
+.method.post   { background-color: #2980b9; }
+.method.put    { background-color: #e67e22; }
+.method.delete { background-color: #c0392b; }
+
+code {
+ background-color: #f1f1f1;
+ padding: 2px 6px;
+ border-radius: 4px;
+ font-size: 13px;
+}
+
+footer {
+ background-color: #1a3a5c;
+ color: #ccc;
+ text-align: center;
+ padding: 15px;
+ font-size: 13px;
+}
